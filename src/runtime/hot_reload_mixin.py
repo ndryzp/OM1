@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import logging
+
 from src.runtime.config_watcher import ConfigWatcher
 
 logger = logging.getLogger(__name__)

@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-import json5, hashlib, time, logging
+import hashlib
+import logging
+import time
 from pathlib import Path
-from typing import Callable, Dict
-from threading import Thread, Lock
+from threading import Lock, Thread
+from typing import Callable
+
+import json5
 
 logger = logging.getLogger(__name__)
 
